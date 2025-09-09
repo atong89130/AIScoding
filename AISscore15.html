@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="x-ua-compatible" content="IE=EDGE" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CGMH AIS Scoring Tool</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row" id="rowArea"></div>
+    </div>
+    <div style="display:none">
+        <div class="panel panel-default" id="panelForm">
+            <div class="panel-heading">子表單</div>
+            <div class="panel-body" data-type="Form" style="width:100%;height:70vh;overflow-y:auto;text-align:left;padding:0">
+            </div>
+            <div class="panel-footer text-center">
+                <input type="button" value="確定" class="btn btn-default" onclick="PopSure(this);" />
+                <input type="button" value="取消" class="btn btn-default" onclick="PopClose(); " />
+            </div>
+        </div>
+    </div>
+    
+    <script src="js/app.js"></script>
+</body>
+</html>
